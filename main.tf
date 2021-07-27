@@ -1,5 +1,5 @@
 module "aci_single_bd_single_epg" {
-    source  = "../modules/aci_single_bd_single_epg"
+    source  = "github.com/conmurphy/tf_module_aci_single_bd_single_epg"
 
     for_each = var.apps
     
